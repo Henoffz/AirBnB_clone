@@ -1,15 +1,17 @@
 <B>0x00. AirBnB clone - The console</B>
 
-0x00.Table of contents
+<B>0x00.Table of contents</B>
+
 0x01 Introduction
+
 0x02 Environment
+
 0x03 Installation
+
 0x04 Testing
-0x05 Usage
-0x06 Authors
 
 
-0x01 Introduction
+<B>0x01 Introduction<B/>
 
 Team project to build a clone of AirBnB.
 
@@ -181,15 +183,4 @@ Prints the number of instances of a given class.
 e952b772-80a5-41e9-b728-6bc4dc5c21b4
 (hbnb) count City
 2
-(hbnb)
-	
-update
-
-Updates an instance based on the class name, id, and kwargs passed. Update the file.json
-
-(hbnb) create User
-1afa163d-486e-467a-8d38-3040afeaa1a1
-(hbnb) update User 1afa163d-486e-467a-8d38-3040afeaa1a1 email "aysuarex@gmail.com"
-(hbnb) show User 1afa163d-486e-467a-8d38-3040afeaa1a1
-[User] (s) [User] (1afa163d-486e-467a-8d38-3040afeaa1a1) {'id': '1afa163d-486e-467a-8d38-3040afeaa1a1', 'created_at': datetime.datetime(2021, 11, 14, 23, 42, 10, 502157), 'updated_at': datetime.datetime(2021, 11, 14, 23, 42, 10, 502186), 'email': 'aysuarex@gmail.com'}
-(hbnb)
+(hbnb)	
