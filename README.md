@@ -12,6 +12,8 @@
 
 0x05 Usage
 
+0x06 Authors
+
 
 <B>0x01 Introduction</B>
 
@@ -188,4 +190,9 @@ Prints the number of instances of a given class.
 e952b772-80a5-41e9-b728-6bc4dc5c21b4
 (hbnb) count City
 2
-(hbnb)	
+(hbnb)
+
+<B>Authors</B>
+
+Deebom Barisi Shedrack
+Henry Offor O.
