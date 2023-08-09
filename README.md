@@ -10,8 +10,10 @@
 
 0x04 Testing
 
+0x05 Usage
 
-<B>0x01 Introduction<B/>
+
+<B>0x01 Introduction</B>
 
 Team project to build a clone of AirBnB.
 
@@ -27,11 +29,13 @@ do operations on objects
 destroy an object
 
 
-Storage
+<B>Storage</B>
+
 All the classes are handled by the Storage engine in the FileStorage Class.
 
 
-0x02 Environment
+<B>0x02 Environment</B>
+
 Suite CRM terminal python Suite CRM Suite CRM git distributed version control system Github
 
 Style guidelines:
@@ -41,13 +45,14 @@ PEP8
 All the development and testing was runned over an operating system Ubuntu 20.04 LTS using programming language Python 3.8.3. The editors used were VIM 8.1.2269, VSCode 1.6.1 and Atom 1.58.0 . Control version using Git 2.25.1.
 
 
-0x03 Installation
+<B>0x03 Installation</B>
+
 git clone https://github.com/Barished/AirBnB_clone.git
 change to the AirBnb directory and run the command:
 
 ./console.py
 
-Execution
+<B>Execution</B>
 In interactive mode
 
 $ ./console.py
@@ -84,11 +89,11 @@ EOF  help  quit
 $
 
 
-0x04 Testing
+<B>0x04 Testing</B>
 
 All the test are defined in the tests folder.
 
-Documentation
+<B>Documentation</B>
 Modules:
 python3 -c 'print(__import__("my_module").__doc__)'
 Classes:
@@ -100,7 +105,7 @@ and
 python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
 
 
-Python Unit Tests
+<B>Python Unit Tests</B>
 
 unittest module
 File extension .py
@@ -109,18 +114,18 @@ Organization:for models/base.py, unit tests in: tests/test_models/test_base.py
 Execution command: python3 -m unittest discover tests
 or: python3 -m unittest tests/test_models/test_base.py
 
-run test in interactive mode
+<B>run test in interactive mode</B>
 
 echo "python3 -m unittest discover tests" | bash
 
-run test in non-interactive mode
+<B>run test in non-interactive mode</B>
 
 To run the tests in non-interactive mode, and discover all the test, you can use the command:
 
 python3 -m unittest discover tests
 
 
-0x05 Usage
+<B>0x05 Usage</B>
 
 Start the console in interactive mode:
 $ ./console.py
@@ -137,7 +142,7 @@ Quit the console:
 (hbnb) quit
 $
 
-Commands
+<B>Commands</B>
 
 The commands are displayed in the following format Command / usage / example with output
 
