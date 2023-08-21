@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Defines the User class."""
+"""
+Defines the User class;
+a subclass of the BaseModel.
+"""
 from models.base_model import BaseModel
 
 

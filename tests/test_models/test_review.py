@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines unittests for models/review.py.
+"""Defines unittests for models/review.py module.
 
 Unittest classes:
     TestReview_instantiation

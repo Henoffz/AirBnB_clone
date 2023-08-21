@@ -275,6 +275,6 @@ e952b772-80a5-41e9-b728-6bc4dc5c21b4
 <ul>
 <li><a href="https://www.github.com/Henoffz">Github</a></li>
 <li><a href="https://www.twitter.com/Henoffz">Twitter</a></li>
-<li><a href="mailto:@gmail.com">e-mail</a></li>
+<li><a href="mailto:henryoffor007@gmail.com">e-mail</a></li>
 </ul>
 </details>

@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Defines the State class."""
+"""
+Defines the State class;
+a subclass of the BaseModel.
+"""
 from models.base_model import BaseModel
 
 

@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-"""Defines the FileStorage class."""
+"""
+Defines the FileStorage class that handles file
+storage, using json format to serialize and 
+deserialize data.
+"""
 import json
 from models.base_model import BaseModel
 from models.user import User
