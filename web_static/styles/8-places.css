@@ -6,11 +6,11 @@
 .places h1{
     font-size: 30px;
 }
-.places_title{
+.place_type{
     padding-top: 30px;
     margin-bottom: -25px;
 }
-.articles{
+.items{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -34,7 +34,7 @@ article h2{
     margin-top: -1px;
     padding-left: 0%;
 }
-.article_title{
+.item_tag{
     width: 100%;
 }
 .price_by_night{
@@ -56,7 +56,7 @@ article h2{
 .price{
     margin-top: -1px;
 }
-.price_title{
+.price_tag{
     display: flex;
 }
 .information{
@@ -101,7 +101,7 @@ article h2{
     background-repeat: no-repeat;
     margin-left: 35px;
 }
-.rooms_number h2{
+h2{
     font-size: 14px;
     color:  #484848;
     font-weight: normal;
@@ -121,7 +121,7 @@ article h2{
     background-repeat: no-repeat;
     margin-left: 35px;
 }
-.bathrooms_number h2{
+h2{
     font-size: 14px;
     color:  #484848;
     font-weight: normal;}
