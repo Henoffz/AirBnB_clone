@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <title>AirBnb Clone</title>
     <link rel="stylesheet" href="styles/4-common.css">
     <link rel="stylesheet" href="styles/3-header.css">
     <link rel="stylesheet" href="styles/3-footer.css">
     <link rel="stylesheet" href="styles/6-filters.css">
     <link rel="stylesheet" href="styles/8-places.css">
-    <link rel="icon" href="images/icon.png" type="image/png">
+    <link rel="icon" href="images/icon.png">
+    <title>AirBnB Clone</title>
 </head>
 
 <body>
@@ -26,7 +26,7 @@
                         <h2>Arizona:</h2>
                     </li>
                     <li>
-                        <ul class="popover_list">
+                        <ul>
                             <li>Page</li>
                             <li>Page2</li>
                         </ul>
@@ -35,7 +35,7 @@
                         <h2>California:</h2>
                     </li>
                     <li>
-                        <ul class="popover_list">
+                        <ul>
                             <li>San Francisco</li>
                             <li>Los Altos</li>
                         </ul>
@@ -54,106 +54,81 @@
             </div>
         </section>
         <section class="places">
-            <div class="places_title">
-                <h1>Places</h1>
-            </div>
-            <div class="articles">
+	    <div class="place_type">
+	        <h1>Places</h1>
+	    </div>
+	    <div class="items">
                 <article>
-                    <div class="price_title">
-                        <div class="article_title">
-                            <h2>My Home</h2>
-                        </div>
-                        <div class="price_by_night">
-                            <div class="price">
-                                $80
-                            </div>
+		    <div class="price_tag">
+		        <div class="item_tag">
+			    <h2>My Home</h2>
+			</div>
+                        <div class="price_by_night"><p>$80</p>
                         </div>
                     </div>
                     <div class="information">
                         <div class="max_guest">
-                            <div class="guest_icon">
-                            </div>
-                            <div class="guest_number">
-                                <h2>2 Guests</h2>
-                            </div>
+                            <div class="guest_icon"></div><h2>2 Guests</h2>
                         </div>
                         <div class="number_rooms">
-                            <div class="rooms_icon">
-                            </div>
-                            <div class="rooms_number">
-                                <h2>1 Bedroom</h2>
-                            </div>
+                            <div class="rooms_icon"></div><h2>1 Bedroom</h2>
                         </div>
                         <div class="number_bathrooms">
-                            <div class="bathrooms_icon">
-                            </div>
-                            <div class="bathrooms_number">
-                                <h2>1 Bathroom</h2>
-                            </div>
+                            <div class="bathroom_icon"></div><h2>1 Bathroom</h2>
                         </div>
                     </div>
                     <div class="user">
-                        <b>Owner:</b> John Lennon
+                        <b>Owner:</b> Jack Smith
                     </div>
                     <div class="description">
-                        This is a lovely 1 bedroom and 1 bathroom apartment than can
-                        accomodate 2 people. It locates at center of Shangai
-                        and next to subway line 1, 1 stop to People Square, 2 stops to
-                        Bund, 3 stops to Jingan Temple.
+                        A lovely apartment, that is suitable for a family vacation. 
+			I bet you will love. It is so cool with a wonderful, It 
+			has all and even more of the amenities that  will make
+			your stay worthwhile.
                     </div>
                 </article>
                 <article>
-                    <div class="price_title">
-                        <div class="article_title">
+                    <div class="price_tag">
+                        <div class="item_tag">
                             <h2>Tiny House</h2>
                         </div>
-                        <div class="price_by_night">
-                            <div class="price">
-                                $80
-                            </div>
-                        </div>
+                        <div class="price_by_night">$80</div>
                     </div>
                     <div class="information">
                         <div class="max_guest">
-                            <div class="guest_icon">
-                            </div>
-                            <div class="guest_number">
+                            <div class="guest_icon"></div>
+			    <div>
                                 <h2>4 Guests</h2>
                             </div>
                         </div>
                         <div class="number_rooms">
-                            <div class="rooms_icon">
-                            </div>
-                            <div class="rooms_number">
+                            <div class="rooms_icon"></div>
+                            <div>
                                 <h2>2 Bedrooms</h2>
                             </div>
                         </div>
                         <div class="number_bathrooms">
-                            <div class="bathrooms_icon">
-                            </div>
-                            <div class="bathrooms_number">
+                            <div class="bathrooms_icon"></div>
+                            <div>
                                 <h2>1 Bathroom</h2>
                             </div>
                         </div>
                     </div>
                     <div class="user">
-                        <b>Owner:</b> Adrienne
+                        <b>Owner:</b> Giulliana
                     </div>
                     <div class="description">
-                        Our place is a private, affordable stand-alone guest house
-                        centrally located just minutes to French Quarters, downtown,
-                        The Fair Groundz(Jazz Fest) and City Park. The guest house is
-                        a quaint, 400 square ft. with a full bath, mini kitchen, & living
-                        room. The extra high cellings make the home feel more
-                        spacious. The sofa converts to a bed also. We have a hand
-                        made counter area that adds character to the room and a
-                        great porch/deck to relax on and have a glass of Merlot.
-
-                    </div>
+                        Welcome to our cozy and affordable guest house, nestled in a prime
+			location just minutes away from the heart of the city. Whether you're
+			headed to the bustling downtown area,he famous Jazz Fest venue, or
+			he serene City Park, our private standalone guest house is perfectly situated. 
+			This charming 400 square foot space boasts a full bathroom, a compact kitchenette, 
+			and a comfortable living room. 
+		    </div>
                 </article>
                 <article>
-                    <div class="price_title">
-                        <div class="article_title">
+                    <div class="price_tag">
+                        <div class="item_tag">
                             <h2>A Suite</h2>
                         </div>
                         <div class="price_by_night">
@@ -164,40 +139,38 @@
                     </div>
                     <div class="information">
                         <div class="max_guest">
-                            <div class="guest_icon">
-                            </div>
-                            <div class="guest_number">
+                            <div class="guest_icon"></div>
+                            <div>
                                 <h2>2 Guests</h2>
                             </div>
                         </div>
                         <div class="number_rooms">
-                            <div class="rooms_icon">
-                            </div>
-                            <div class="rooms_number">
+                            <div class="rooms_icon"></div>
+                            <div>
                                 <h2>1 Bedroom</h2>
                             </div>
                         </div>
                         <div class="number_bathrooms">
-                            <div class="bathrooms_icon">
-                            </div>
-                            <div class="bathrooms_number">
+                            <div class="bathrooms_icon"></div>
+                            <div>
                                 <h2>1 Bathroom</h2>
                             </div>
                         </div>
                     </div>
                     <div class="user">
-                        <b>Owner:</b> Ayomide Suara
+                        <b>Owner:</b> Ugo Mark
                     </div>
                     <div class="description">
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                        This apartment is one fileed with lovely memories.
+			It is located in one of the best island in Africa.
+			The islands that never sleeps. Suitable for the lovers
+			of activities.
                     </div>
                 </article>
             </div>
         </section>
     </div>
-    <footer>
-        Best School
-    </footer>
+    <footer>Best Schoo</footer>
 </body>
 
 </html>
